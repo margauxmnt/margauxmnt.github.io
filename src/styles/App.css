@@ -1,0 +1,244 @@
+/* ALL APP */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+::selection {
+    background-color: #006225;
+}
+
+.icons {
+    margin-right: 5px;
+    margin-bottom: 4px;
+}
+
+.scrollToTop {
+    color: #fff;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    cursor: pointer;
+    mix-blend-mode: difference;
+}
+
+/* NAVBAR COMPONENT */
+
+.navbar_brand::selection{
+    background-color: #fff;
+}
+
+.navbar_brand {
+    color: #006225 !important;
+    font-weight: 800;
+    font-size: 20px;
+    position: absolute;
+    left: 5em;
+}
+
+.navbar_logo {
+    height: 60px;
+    margin: 10px
+} 
+
+.navbar-collapse {
+    width: 100%;
+    justify-content: center
+}
+
+.nav-item {
+    margin-right: 35px;
+    margin-left: 35px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.nav_cart {
+    margin-bottom: 0;
+    color: grey;
+    display: flex;
+    align-items: center;
+}
+
+/* FOOTER COMPONENT */
+
+.footer_container {
+    width: 100%;
+    margin: 0;
+    background-color: #212529;
+    padding: 20px 60px;
+}
+
+.footer_about {
+    color: #fff;
+    padding: 15px 25px
+}
+
+.footer_title {
+    font-weight: bold;
+}
+
+.footer_links {
+    font-size: 14px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.footer_links:hover {
+    color: #000;
+}
+
+.footer_contacts {
+    font-size: 14px;
+}
+
+.footer_credits {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color:#006225;
+    color: #212529;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/* CAROUSEL COMPONENT */
+
+.carousel_img {
+    width: 100vw;
+}
+
+.carousel_caption {
+    font-size: 40px;
+    font-weight: 800;
+    top: 60%;
+    opacity: 0.85;
+}
+
+/* CARDS COMPONENT */
+
+.cards_container {
+    margin: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.card_padding {
+    padding: 12px;
+}
+
+.card {
+    border: none;
+    border-radius: 0;
+}
+
+.card-title {
+    font-weight: 800;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.card-text {
+    letter-spacing: -1px;
+}
+
+.card_btn {
+    letter-spacing: -0.5px;
+    border-radius: 0;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* TABLE COMPONENT */
+
+.table_img {
+    width: 150px;
+}
+
+.table_infos {
+    display: flex;
+    flex-direction: column;
+}
+
+.table_title {
+    font-weight: bold;
+    margin-bottom: 2
+}
+
+.table_ref {
+    font-size: 12px;
+    margin: 0;
+}
+
+.table_price {
+    letter-spacing: -1px;
+}
+
+.table_empty {
+    font-style: italic;
+    padding-bottom: 22.4%;
+}
+
+.table_quantity {
+    max-width: 50px;
+}
+
+.table_checkout {
+    background-color: #006225;
+    width: 80px;
+    float: right;
+}
+
+/* RESPONSIVE BEHAVIOR */
+
+@media only screen and (max-width: 992px) {
+   .navbar_logo {
+        height: 40px;
+        margin: 5px
+    } 
+
+    .navbar_brand {
+        font-size: 15px;
+        left: 4.5em;
+    }
+
+    .footer_title {
+        font-size: 14px;
+    }
+
+    .footer_links {
+        font-size: 12px;
+    }
+    
+    .footer_contacts {
+        font-size: 12px;
+    }
+
+    .footer_container {
+        padding: 10px 15px;
+    }
+
+    .cards_container {
+        margin: 35px 0px;
+    }
+
+    .table_empty {
+        padding-bottom: 74.4%;
+    }
+
+    .navbar_brand {
+        display: none;
+    }
+}
+
