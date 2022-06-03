@@ -1,7 +1,10 @@
 # Project Description
 
 This application consists of a simple client-side bike shop.
+
 I developped this app from scratch to improve my skills using React.
+
+You can see the app live [here](https://margauxmnt.github.io/).
 
 # Technos used
 
